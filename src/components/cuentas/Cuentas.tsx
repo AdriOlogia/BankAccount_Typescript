@@ -21,10 +21,6 @@ const Cuentas: React.FC = () => {
       // tomamos de la api la data de cuentas
       setAccounts(response.cuentas);
     });
-
-    return () => {
-      setAccounts([]);
-    };
   }, []);
 
 
