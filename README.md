@@ -5,10 +5,27 @@ Este proyecto es una aplicación web construida utilizando React con TypeScript,
 Se realizo testing unitario con Jest
 
 ## Inicio Rápido
+1- Al clonar el repositorio se necesitar instalar las dependencias con el comando: 
+ ```
+   npm i
+```
 
- Para inicializar el proyecto ejecuta el comando en la consola:
+2- Para inicializar el proyecto ejecuta el comando en la consola:
+
+
 
    ```
    npm run dev
 ```
+
+
+## Agregar el .env
+
+En la raiz del proyecto se debe crear un archivo con el nombre ".env.local" y adentro escribir 
+
+ ```
+   VITE_URL_API = https://api.npoint.io/97d89162575a9d816661
+```
+
+
 
