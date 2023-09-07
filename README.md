@@ -20,12 +20,15 @@ Se realizo testing unitario con Jest
 
 
 ## Agregar el .env
-
-En la raiz del proyecto se debe crear un archivo con el nombre ".env.local" y adentro escribir 
+En el archivo helpers/get_users.jsx se encuentra la conexion a la API. 
+Si se quiere usar las variables de entorno descomentar la linea 7 y comenta la 8 y en la raiz del proyecto se debe crear un archivo con el nombre ".env.local" y adentro copiar lo siguiente:
 
  ```
    VITE_URL_API = https://api.npoint.io/97d89162575a9d816661
 ```
+
+Si no, solo hacer el pull.
+
 
 
 

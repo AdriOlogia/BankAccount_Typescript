@@ -4,7 +4,10 @@ import axios from "axios";
 const get_users= async() =>{
 
   // usamos variables de entorno para la API ubicada en el .env.local
+  // const URL = import.meta.env.VITE_URL_API
   const URL = "https://api.npoint.io/97d89162575a9d816661"
+  
+  
 
   try {
 
